@@ -5,7 +5,7 @@ import ReaderPage from "./pages/ReaderPage";
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <Routes>
         <Route path="/" element={<Navigate to="/books" replace />} />
         <Route path="/books" element={<BooksPage />} />
