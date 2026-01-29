@@ -1,0 +1,38 @@
+.homeLink {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 16px;
+
+    & p {
+         font-weight: 900;
+    }
+}
+.reader_page {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 16px;
+
+    &_header {
+        margin-bottom: 12px;
+        display: flex;
+        gap: 14px;
+        align-items: center;
+    }
+    &_link {
+        font-weight: 800;
+        text-decoration: none;
+    }
+    &_title {
+        font-weight: 900;
+    }
+    &_error {
+        padding: 14px;
+        border-radius: 14px;
+        background: rgba(255,0,0,0.06);
+        font-weight: 800;
+    }
+    &_loading {
+        font-weight: 800;
+        opacity: 0.8;
+    }
+}
