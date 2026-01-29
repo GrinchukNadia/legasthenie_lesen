@@ -3,17 +3,17 @@ import type { SentenceItem } from "../../features/reader/types";
 export const imOzeanChapters = [
   {
     id: "delfine",
-    title: "Knattter! Knatter!",
+    title: "Delfine",
     preview: "Schau mal, wie die Delfine...",
   },
   {
     id: "otter",
-    title: "Rää! Rää!",
+    title: "Fischotter",
     preview: "Sieh nur, der klene Fischotter...",
   },
   {
     id: "pinguine",
-    title: "Schnatter! Schnatter!",
+    title: "Pinguine",
     preview: "Entdeckst du die Pinguine...",
   },
   {

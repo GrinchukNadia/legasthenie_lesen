@@ -1,6 +1,6 @@
-import imOzean from "../../assets/imOzean/imOzean.jpg";
+import imOzean from "../../assets/imOzean/imOzean.png";
 export const imOzeanMeta = {
     id: "imOzean",
-    title: "Hör mal rein, wer kann das sein? Im Ozean",
+    title: " Im Ozean. Lese über Wassertiere",
     coverUrl: imOzean,
 }

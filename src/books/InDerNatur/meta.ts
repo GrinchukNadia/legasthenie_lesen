@@ -1,6 +1,6 @@
-import inDerNatur from "../../assets/inDerNatur/inDerNatur.jpg"
+import inDerNatur from "../../assets/inDerNatur/inDerNatur.png";
 export const inDerNaturMeta = {
   id: "inDerNatur",
-  title: "Hör mal rein, wer kann das sein? – In der Natur",
+  title: "In der Natur. Lese über Pflanzen und Tiere",
   coverUrl: inDerNatur,
 };
