@@ -1,0 +1,59 @@
+.not_found {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 16px;
+
+  & p {
+    font-weight: 800;
+  }
+}
+
+.book {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 16px;
+
+  &_link {
+    font-weight: 800;
+    text-decoration: none;
+  }
+
+  & .cover {
+    margin-top: 10px;
+    display: flex;
+    gap: 14px;
+    align-items: center;
+
+    & img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 14px;
+    }
+  }
+  &_tip {
+    opacity: 0.7;
+    font-weight: 700;
+  }
+  &_chapters {
+    margin-top: 16px;
+    display: grid;
+    gap: 10px;
+  }
+  &_buttons {
+    text-align: left;
+    padding: 14px;
+    border-radius: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    background: white;
+    cursor: pointer;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+  }
+  &_title {
+    font-weight: 900;
+  }
+  &_preview {
+    opacity: 0.75;
+    margin-top: 6px;
+  }
+}
