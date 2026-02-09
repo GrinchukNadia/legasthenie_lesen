@@ -4,6 +4,8 @@ import { inDerNaturMeta } from "./InDerNatur/meta";
 import { imOzeanChapters, loadImOzeanChapter } from "./ImOzean/chapters";
 import { voegelChapters, loadVoegelChapter } from "./Voegel/chapters";
 import { inDerNaturChapters, loadInDerNaturChapter } from "./InDerNatur/chapters";
+import { lieblingsTiereMeta } from "./LieblingsTiere/meta";
+import { lieblingsTiereChapters, loadLieblingsTiereChapter } from "./LieblingsTiere/chapters";
 
 export const BOOKS = [
   {
@@ -20,6 +22,11 @@ export const BOOKS = [
     ...inDerNaturMeta,
     chapters: inDerNaturChapters,
     loadChapter: loadInDerNaturChapter,
+  },
+  {
+    ...lieblingsTiereMeta,
+    chapters: lieblingsTiereChapters,
+    loadChapter: loadLieblingsTiereChapter,
   },
 ]
 
