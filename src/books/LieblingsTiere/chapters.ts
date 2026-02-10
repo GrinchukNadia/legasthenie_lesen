@@ -7,15 +7,15 @@ export const lieblingsTiereChapters = [
     preview: "Der Gottesanbeter ist ein faszinierendes Insekt...",
   },
   {
-    id: "woodpecker",
-    title: "Specht",
-    preview: "...",
+    id: "chamealeon",
+    title: "Chamäleon",
+    preview: "Der Chamäleon ist ein besonderes Reptil...",
   },
 
   {
-    id: "sparrow",
-    title: "Spatz",
-    preview: "...",
+    id: "hummel",
+    title: "Hummel",
+    preview: "Die Hummel ist ein kleines, rundes Insekt...",
   },
   {
     id: "stork",
@@ -40,12 +40,12 @@ export async function loadLieblingsTiereChapter(
       return m.default;
     }
 
-    case "woodpecker": {
-      const m = await import("./chapters/woodpecker");
+    case "chamealeon": {
+      const m = await import("./chapters/chamealeon");
       return m.default;
     }
-    case "sparrow": {
-      const m = await import("./chapters/sparrow");
+    case "hummel": {
+      const m = await import("./chapters/hummel");
       return m.default;
     }
     case "stork": {
