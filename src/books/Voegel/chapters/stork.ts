@@ -3,7 +3,7 @@ import stork02 from "../../../assets/voegel/stork/stork02.avif";
 import stork03 from "../../../assets/voegel/stork/stork03.webp";
 import stork04 from "../../../assets/voegel/stork/stork04.jpg";
 import stork05 from "../../../assets/voegel/stork/stork05.avif";
-import stork06 from "../../../assets/voegel/stork/stork06.jpg";
+import stork06 from "../../../assets/voegel/stork/stork06.avif";
 import type { SentenceItem } from "../../../features/reader/types";
 
 const stork: SentenceItem[] = [
@@ -84,27 +84,33 @@ const stork: SentenceItem[] = [
     id: "5",
     imageUrl: stork05,
     words: [
-      { t: "Und", s: ["Und"] },
-      { t: "wie", s: ["wie"] },
-      { t: "macht", s: ["macht"] },
-      { t: "der", s: ["der"] },
-      { t: "fliegende", s: ["flie", "gen", "de"] },
-      { t: "Storch?", s: ["Storch"] },
+     { t: "Der", s: ["Der"] },
+    { t: "Storch", s: ["Storch"] },
+    { t: "baut", s: ["baut"] },
+    { t: "sein", s: ["sein"] },
+    { t: "großes", s: ["gro", "ßes"] },
+    { t: "Nest", s: ["Nest"] },
+    { t: "oft", s: ["oft"] },
+    { t: "auf", s: ["auf"] },
+    { t: "Dächern", s: ["Dä", "chern"] },
+    { t: "oder", s: ["o", "der"] },
+    { t: "hohen", s: ["ho", "hen"] },
+    { t: "Masten.", s: ["Mas", "ten"] },
     ],
   },
   {
     id: "6",
     imageUrl: stork06,
     words: [
-      { t: "Streichle", s: ["Streich", "le"] },
-      { t: "mal", s: ["mal"] },
-      { t: "sein", s: ["sein"] },
-      { t: "weißes", s: ["wei", "ßes"] },
-      { t: "Gefieder,", s: ["Ge", "fie", "der"] },
-      { t: "dann", s: ["dann"] },
-      { t: "hörst", s: ["hörst"] },
-      { t: "du", s: ["du"] },
-      { t: "es!", s: ["es"] },
+      { t: "Ihr", s: ["Ihr"] },
+    { t: "lautes", s: ["lau", "tes"] },
+    { t: "Klappern", s: ["Klap", "pern"] },
+    { t: "mit", s: ["mit"] },
+    { t: "dem", s: ["dem"] },
+    { t: "Schnabel", s: ["Schna", "bel"] },
+    { t: "dient", s: ["dient"] },
+    { t: "zur", s: ["zur"] },
+    { t: "Begrüßung.", s: ["Be", "grü", "ßung"] },
     ],
   },
 ];

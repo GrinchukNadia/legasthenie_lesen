@@ -18,14 +18,19 @@ export const lieblingsTiereChapters = [
     preview: "Die Hummel ist ein kleines, rundes Insekt...",
   },
   {
-    id: "stork",
-    title: "Storch",
-    preview: "...",
+    id: "garnele",
+    title: "Garnele",
+    preview: "Die Garnele lebt im Meer...",
   },
   {
-    id: "amsel",
-    title: "Amsel",
-    preview: "...",
+    id: "papagei",
+    title: "Papagei",
+    preview: "Der Papagei ist ein bunter Vogel...",
+  },
+  {
+    id: "ratte",
+    title: "Ratte",
+    preview: "Die Ratte ist ein kleines, kluges...",
   },
 ] as const;
 
@@ -48,12 +53,16 @@ export async function loadLieblingsTiereChapter(
       const m = await import("./chapters/hummel");
       return m.default;
     }
-    case "stork": {
-      const m = await import("./chapters/stork");
+    case "garnele": {
+      const m = await import("./chapters/garnele");
       return m.default;
     }
-    case "amsel": {
-      const m = await import("./chapters/mantis");
+    case "papagei": {
+      const m = await import("./chapters/papagei");
+      return m.default;
+    }
+    case "ratte": {
+      const m = await import("./chapters/ratte");
       return m.default;
     }
 

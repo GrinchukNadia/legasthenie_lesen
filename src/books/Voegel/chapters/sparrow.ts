@@ -1,5 +1,5 @@
-import sparrow01 from "../../../assets/voegel/sparrow/sparrow01.jpg";
-import sparrow02 from "../../../assets/voegel/sparrow/sparrow02.webp";
+import sparrow01 from "../../../assets/voegel/sparrow/sparrow01.webp";
+import sparrow02 from "../../../assets/voegel/sparrow/sparrow02.jpg";
 import sparrow03 from "../../../assets/voegel/sparrow/sparrow03.jpg";
 import sparrow04 from "../../../assets/voegel/sparrow/sparrow04.jpg";
 import sparrow05 from "../../../assets/voegel/sparrow/sparrow05.jpg";
@@ -67,29 +67,36 @@ const sparrow: SentenceItem[] = [
     id: "5",
     imageUrl: sparrow05,
     words: [
-      { t: "Und", s: ["Und"] },
-      { t: "wie", s: ["wie"] },
-      { t: "klingt", s: ["klingt"] },
-      { t: "der", s: ["der"] },
-      { t: "Spatz", s: ["Spatz"] },
-      { t: "mit", s: ["mit"] },
-      { t: "den", s: ["den"] },
-      { t: "gemusterten", s: ["ge", "mus", "ter", "ten"] },
-      { t: "Flügeln?", s: ["Flü", "geln"] },
+      { t: "Spatzen", s: ["Spat", "zen"] },
+      { t: "können", s: ["kön", "nen"] },
+      { t: "sehr", s: ["sehr"] },
+      { t: "laut", s: ["laut"] },
+      { t: "und", s: ["und"] },
+      { t: "fröhlich", s: ["fröh", "lich"] },
+      { t: "zwitschern,", s: ["zwit", "schern"] },
+      { t: "obwohl", s: ["ob", "wohl"] },
+      { t: "sie", s: ["sie"] },
+      { t: "so", s: ["so"] },
+      { t: "klein", s: ["klein"] },
+      { t: "sind.", s: ["sind"] },
     ],
   },
   {
     id: "6",
     imageUrl: sparrow06,
     words: [
-      { t: "Streichle", s: ["Streich", "le"] },
-      { t: "mal", s: ["mal"] },
-      { t: "seinen", s: ["sei", "nen"] },
-      { t: "Bauch,", s: ["Bauch"] },
-      { t: "dann", s: ["dann"] },
-      { t: "hörst", s: ["hörst"] },
-      { t: "du", s: ["du"] },
-      { t: "es!", s: ["es"] },
+      { t: "Trotz", s: ["Trotz"] },
+      { t: "ihrer", s: ["ih", "rer"] },
+      { t: "geringen", s: ["ge", "rin", "gen"] },
+      { t: "Größe", s: ["Grö", "ße"] },
+      { t: "sind", s: ["sind"] },
+      { t: "Spatzen", s: ["Spat", "zen"] },
+      { t: "sehr", s: ["sehr"] },
+      { t: "mutig", s: ["mu", "tig"] },
+      { t: "und", s: ["und"] },
+      { t: "verteidigen", s: ["ver", "tei", "di", "gen"] },
+      { t: "ihr", s: ["ihr"] },
+      { t: "Nest.", s: ["Nest"] },
     ],
   }
 ];
